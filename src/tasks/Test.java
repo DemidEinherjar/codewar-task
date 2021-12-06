@@ -13,6 +13,7 @@ public class Test {
 //        testHelloName();
 //        testRepeaterStr();
 //        testTenMinWalk();
+        testEnoughIsEnough();
     }
     public static void testTriangleTester(){
         TriangleTester triangleTester = new TriangleTester();
@@ -49,4 +50,5 @@ public class Test {
     public static void testHelloName() { System.out.println(new HelloName().greet(new String("Demid")));}
     public static void testRepeaterStr(){ System.out.println((new RepeaterStr().repeaterStr(7, new String("Demid"))));}
     public static void testTenMinWalk(){System.out.println(new TenMinWalk().isValid(new char[]{'w', 'e', 'w', 'w', 'w', 'w', 'w', 'w', 'w', 'w'}));}
+    public static void testEnoughIsEnough(){System.out.println(new EnoughIsEnough().deleteNth(new int[]{ 1, 2, 3, 1, 1, 2, 2, 3, 3, 4, 5 }, 3));}
 }
