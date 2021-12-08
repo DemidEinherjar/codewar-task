@@ -1,0 +1,7 @@
+package StringEndsWith;
+
+public class Test {
+    public static void main(String[] args) {
+        System.out.println(new Kata().solution("demid", "id"));
+    }
+}
